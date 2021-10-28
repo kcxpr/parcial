@@ -2,7 +2,7 @@
  
   <center>
     <br>
-    <div class="w3-container">
+    <div class="p-3 mb-2 bg-dark text-white">
         <h2 style="background-color:powderblue;">Insertar un nuevo video juego</h2><br>
     <form action="" @submit.prevent="mounted()" >
   <div class="col-md-4">

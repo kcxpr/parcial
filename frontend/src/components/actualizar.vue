@@ -1,7 +1,8 @@
 <template>
  <center>
     <br>
-    <div class="w3-container">
+    <div class="p-3 mb-2 bg-dark text-white">
+        <h3 >ID: {{id=$route.params.id}} </h3><br>
     <form action="" @submit.prevent="mounted()" >
   <div class="col-md-4">
     <label for="validationCustom01" class="form-label">Nombre del video juego</label>
